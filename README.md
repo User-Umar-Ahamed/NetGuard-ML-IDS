@@ -2,17 +2,17 @@
 
 ## 🔍 Introduction
 
-Intrusion Detection Systems (IDS) are a cornerstone of modern network security, providing real-time visibility into malicious or anomalous traffic. This project implements a **Machine Learning-Based Anomaly Detection IDS** using Python — leveraging **Isolation Forest**, a powerful unsupervised ML algorithm, to identify abnormal network behavior without requiring labeled attack data.
+Intrusion Detection Systems (IDS) are a cornerstone of modern network security, providing real-time visibility into malicious or anomalous traffic. This project implements a **Machine Learning-Based Anomaly Detection IDS** using Python leveraging **Isolation Forest**, a powerful unsupervised ML algorithm, to identify abnormal network behavior without requiring labeled attack data.
 
-Unlike signature-based IDS tools, this system learns the baseline of "normal" network traffic and flags statistical deviations — making it effective against **zero-day threats, novel attack patterns, and behavioral anomalies** that rule-based systems would miss.
+Unlike signature-based IDS tools, this system learns the baseline of "normal" network traffic and flags statistical deviations making it effective against **zero-day threats, novel attack patterns, and behavioral anomalies** that rule-based systems would miss.
 
-The system supports **CSV datasets** (e.g., UNSW-NB15, CIC-IDS), **PCAP/PCAPng files**, and **live packet capture** — covering all major use cases from academic research to real-world deployment.
+The system supports **CSV datasets** (e.g., UNSW-NB15, CIC-IDS), **PCAP/PCAPng files**, and **live packet capture** covering all major use cases from academic research to real-world deployment.
 
 ---
 
 ## 🤖 ML Engine Overview
 
-**Isolation Forest** is the core algorithm behind this IDS. It works by isolating observations using random decision trees — anomalies, being rare and different, are isolated faster and receive lower anomaly scores.
+**Isolation Forest** is the core algorithm behind this IDS. It works by isolating observations using random decision trees anomalies, being rare and different, are isolated faster and receive lower anomaly scores.
 
 ### Why Isolation Forest?
 
